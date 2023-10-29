@@ -110,7 +110,7 @@ As the studio grows and finds success with lower budget movies, the next phase s
 
 ## For more information ##
 
-Please view our full analysis in our [Jupyter Notebook](https://github.com/ginaguerin/Movie_Projection_Analysis/blob/master/Notebook3.ipynb) as well as our [Presentation](here)
+Please view our full analysis in our [Jupyter Notebook](https://github.com/ginaguerin/Movie_Projection_Analysis/blob/master/Notebook3.ipynb) as well as our [Presentation](https://github.com/ginaguerin/Movie_Projection_Analysis/blob/master/Presentation.pdf)
 
 ### Contacts ##
 
@@ -131,7 +131,12 @@ You are in the README.md. The 'Index.ipynb' contains the jupyter notebook that e
 
 ```bash
 
-tree -o readme.md
+├── Data                             <- Data file used in this project
+├── Images                           <- Images and Graphs used in this project obtained from external and internal source
+├── .gitignore                       <- Contains list of files to be ignored from GitHub
+├── Presentation.pdf                 <- Slide Presentation of the project
+├── README.md                        <- Contains README file to be reviewed
+└── Notebook.ipynb                   <- Jupyter notebook of the project containing codes and analysis
 
 
 ```
