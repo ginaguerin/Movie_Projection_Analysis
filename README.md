@@ -28,7 +28,7 @@ The data comes from multiple sources, including <a href="https://www.boxofficemo
 
 ## Method ##
 
-Starting out we create a new table from our SQL data then merge our CSV data together into a pandas dataset. Filtering by year 2010 - 2022 and dropping any null values and $0 values. Outside research showing top movie genres helped create the new column, "Primary_Genre" from key words in "Genre" column and created "Net_Profit" column from "WW_Gross" minus "Budget" then created "ROI" from columns "Budget" divided by "Net_Profit" times 100 to be converted into a float. Converted "Budget", "Dom_Gross", "WW_Gross"and  "Net_Profit" into interger to prepare for visuals.
+Starting out we create a new table from our SQL data then merge our CSV data together into a pandas dataset. Filtering by year 2010 - 2022 and dropping any null values and $0 values. Outside research showing top movie genres helped create the new column, "Primary_Genre" from key words in "Genre" column and created "Net_Profit" column from "WW_Gross" minus "Budget" then created "ROI" from columns "Net_Profit" divided by "Budget" times 100 to be converted into a float. Converted "Budget", "Dom_Gross", "WW_Gross"and  "Net_Profit" into interger to prepare for visuals.
 
 
 ## Visual Analysis ##
@@ -36,19 +36,19 @@ Starting out we create a new table from our SQL data then merge our CSV data tog
 - Graphing our primary genres by median budget. Comedy, Drama and Horror are lowest budget movies.
 
 
-![Alt text](image.png)
+![Alt text](https://github.com/ginaguerin/Movie_Projection_Analysis/blob/master/Images/Med:Budget:MovieGenre.png?raw=true)
 
 
 - Graphing our primary genres by median net profit. Keeping in mind our lowest budget movie genres.
 
 
-![Alt text](image-1.png)
+![Alt text](https://github.com/ginaguerin/Movie_Projection_Analysis/blob/master/Images/Med:NetPro:MovieGenre.png?raw=true)
 
 
 - Graphing our primary genres by median ROI and keeping in mind our lowest budget movie genres.
 
 
-![Alt text](image-2.png)
+![Alt text](https://github.com/ginaguerin/Movie_Projection_Analysis/blob/master/Images/Med:ROI:MovieGenre.png?raw=true)
 
 
 ## Findings ##
@@ -60,19 +60,19 @@ From our first 3 graphs we are able to see that, for a new studio, a lower budge
 - Now that the Horror movie genre has been decided, we will turn our attention to Directors.
 
 
-![Alt text](image-3.png)
+![Alt text](https://github.com/ginaguerin/Movie_Projection_Analysis/blob/master/Images/TopHorrorDirec:AvROI.png?raw=true)
 
 
 - Considering ROI, what can we expect for a movie investment? A simple linear regression can help better understand.
 
 
-![Alt text](image-4.png)
+![Alt text](https://github.com/ginaguerin/Movie_Projection_Analysis/blob/master/Images/SLR:Budget:Net:All.png?raw=true)
 
 
 - From that we take a look at the Horror movie genre.
 
 
-![Alt text](image-5.png)
+![Alt text](https://github.com/ginaguerin/Movie_Projection_Analysis/blob/master/Images/SLR:Budget:NET:Horror.png?raw=true)
 
 ## Findings ##
 
@@ -99,11 +99,11 @@ The ideal director for the first project is Chris Lofing, who is also a talented
 
 ## Future Insights ## 
 
-- - **Marketing**  
+- **Marketing**  
 A marketing analysis is crucial to determine the most effective strategies to promote new films.  This includes using movie trailers, media advertising, and social media content.  
 
 - **Distribution**  
-The studio also needs to investigate the avenues available to distribute movie, especially as a new player in the industry.  Partnering with a larger production company could aid in reaching a wider audience.  
+The studio also needs to investigate the avenues available to distribute movies, especially as a new player in the industry.  Partnering with a larger production company could aid in reaching a wider audience.  
 
 - **Animation**  
 As the studio grows and finds success with lower budget movies, the next phase should include looking into producing animated movies.  They generally cost more to produce, but the expected ROI for that genre is very near what horror delivers, so spending more for animation can lead to even higher profits.
